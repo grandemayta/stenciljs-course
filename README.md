@@ -1,7 +1,8 @@
-# Curso de StencilJS
+# Que es Stencil?
+Stencil es un tool para generar Web Components. Esto significa que no estamos hablando de un framework como Angular o de una libreria como Vue, simplemente es un compilador.
 
-El objetivo de este proyecto es aprender a crear Web Components usando StencilJS.
-En este curso les mostrare como es simple crear Web Components que podemos reutilizar, como integrarlos en otros frameworks o librerias como por ejemplo Angular o VueJS. Tambien aprenderemos quales son los ciclos de vida utiles para manejar el estado de nuestros componentes y muchas funcionalidades mas que iremos añadiendo paso a paso.
+## Que son Web Components?
+Los Web Components son una tecnologia disponible en la mayor parte de navegadores modernos que nos permiten crear o extender elementos html independientes, reutilizables y encapsulables.
 
-## Resumen
-- [Que es Stencil](/grandemayta/stenciljs-course/tree/es/01/que-es-stenciljs)
+## Por que es necesario?
+Stencil es util porque nos permite utilizar las APIs que sirven para crear Web Components (custom-elements and ShadowDom) sin preocuparnos de la version del navegador que estamos utilizando. Por ejemplo, actualmente Microsft Edge no soporta los custom-elements y tampoco soporta el shadowDom. Sin el utlizo de Stencil tendriamos que resolver el problema manualmente usando polyfills que no siempre tienen un buen rendimiendo.
